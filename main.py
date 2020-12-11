@@ -19,3 +19,5 @@ try:
     from PyQt5.QtCore import (
         QFileInfo
     )
+except ImportError:
+    print('[-] import error in PyQt5')
